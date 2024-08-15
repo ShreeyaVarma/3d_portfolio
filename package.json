@@ -2,7 +2,7 @@
   "name": "latest_3d_portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://username.github.io/repository-name",
+  "homepage": "https://username.github.io/3d_portfolio/",
   "type": "module",
   "scripts": {
     "dev": "vite",
