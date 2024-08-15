@@ -1,0 +1,124 @@
+  /* FOR NAVIGATION BAR: about, work, contact */
+  .gradient-hover:hover {
+    background: linear-gradient(to right, #b75fff, #5f7cff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: color 0.3s ease;
+    font-weight: bold;
+  }
+
+  /* Gradient transition on hover: about, work, contact */
+.gradient-hover {
+  background: linear-gradient(90deg, #5f7cff, #7bfafe);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+
+  /* LEFTMOST PART OF THE NAVBAR */
+  .gradient-hoverr {
+    background: linear-gradient(90deg, #77fff1, #47b9f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: background 0.5s ease-in-out, color 0.5s ease-in-out;
+  }
+
+
+/* SPIRAL DYNAMIC BACKGROUND IF NEEDED */
+/* .section-spiral {
+  width: 100%;
+  height: 100vh;
+  background: radial-gradient(#024c6e, #363639, #438d7c, #473b70);
+  background-size: 200% 200%;
+  animation: spiral-animation 15s linear infinite;
+}
+
+@keyframes spiral-animation {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 100%;
+  }
+} */
+
+
+/* FOR VERTICAL LINE ON LEFT OF TEXT */
+
+.animated-gradient {
+  position: relative;
+  width: 1px;
+  height: 100%;
+  background: linear-gradient(0deg,#000000, #000000, #08dddd,  #8904ee,  #8904ee);
+  background-size: 200% 200%;
+  animation: gradientLoop 0.1s ease infinite;
+}
+
+@keyframes gradientLoop {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+/* FOR THE TITLE WITH MY NAME */
+
+.particle {
+  display: inline-block;
+  font-size: 5rem; /* Increase the font size */
+  font-weight: bold;
+  color: #fff; /* Default color for particles */
+  margin-right: 5px; /* Space between characters */
+  position: relative;
+}
+
+.particle-wrapper {
+  display: inline-block;
+  margin-right: 5px; /* Space between words */
+}
+
+.particle-container {
+  text-align: center; /* Center the text */
+  line-height: 1.5; /* Adjust line spacing */
+}
+
+.shreeya-color {
+  color: #67e8f9; /* Color for the word "Shreeya" */
+}
+
+
+
+/* FOR THE TEXT BELOW MY NAME */
+
+.text-pendulum {
+  display: inline-block;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  transform-origin: top center;
+  animation: pendulum 3s ease-in-out forwards;
+}
+
+@keyframes pendulum {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(-5deg);
+  }
+  
+}
+
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Dreaming+Outloud+Pro&display=swap'); */
+
+
